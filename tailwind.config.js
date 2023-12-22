@@ -16,6 +16,7 @@ module.exports = {
       },
       boxShadow: {
         main: "0 4px 8px 0px rgba(31, 41, 55, 0.2)",
+        dark: "0 4px 8px 0px rgba(255, 255, 255, 0.2)",
       },
       screens: {
         "2xl": "1320px",

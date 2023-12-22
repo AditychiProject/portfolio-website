@@ -56,11 +56,11 @@ body {
 
 /* Typography */
 .navbar-links {
-  @apply flex text-sm text-primary dark:text-light font-medium mx-6 py-4;
+  @apply flex text-sm text-primary dark:text-light tracking-[0.3px] font-medium mx-6 py-4;
 }
 
 .overlinee {
-  @apply text-base lg:text-lg text-primary/60 font-bold mb-4;
+  @apply text-base lg:text-lg text-primary/60 dark:text-light/80 tracking-[0.35px] font-medium mb-4;
 }
 
 .headlinee {
@@ -68,12 +68,12 @@ body {
 }
 
 .body {
-  @apply text-sm text-paragraph leading-loose;
+  @apply text-sm text-paragraph dark:text-light/70 tracking-[0.3px] leading-loose;
 }
 
 /* Dark Mode */
 .dark-mode-label {
-  @apply text-sm text-primary font-medium;
+  @apply text-sm text-primary dark:text-white tracking-[0.3px] font-medium;
 }
 
 #dark-toggle:checked ~ label div.toggle-circle {
