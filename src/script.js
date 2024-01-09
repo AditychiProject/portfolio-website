@@ -31,7 +31,7 @@ hamburger.addEventListener("click", function () {
   NavMenu.classList.toggle("hidden");
 });
 
-// Klik di luar elemen
+// Klik di Luar Elemen
 window.addEventListener("click", function (e) {
   if (e.target != hamburger && e.target != NavMenu) {
     hamburger.classList.remove("hamburger-active");

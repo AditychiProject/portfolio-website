@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Font */
+/* Fonts */
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
